@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-control-prev {
+    left: 0 !important;
+}
