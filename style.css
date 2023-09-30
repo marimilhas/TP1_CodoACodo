@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    z-index: 1;
+}
+
+.navbar-nav {
+    margin-right: 7% !important;
+}
+
+.navbar-nav .nav-item {
+    font-size: 18px;
+}
+
+.navbar-nav .link-secondary:hover {
+    color: white !important;
+}
+
+.navbar-nav .link-success:hover {
+    color: rgb(9, 228, 9) !important;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item .card-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 7.2%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: right;
+    /* font-size: 17px; */
+    font-weight: 450;
+}
+
+.carousel-item .card-title {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.boton-verde {
+    background-color: #29A744 !important;
+    color: white !important;
+}
+
+.boton-verde:hover {
+    background-color: rgb(33, 133, 54) !important;
+    color: white;
+}
+
+.boton-transparente {
+    background-color: transparent;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.boton-transparente:hover {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    color: white;
+    border: 1px solid white;
+}
+
+.oradores-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-container {
+    padding-top: 10px;
+    padding-bottom: 4px;
+    font-size: 11px;
+    word-spacing: 3px;
+}
+
+.titulo-container span{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.oradores-container .card-text {
+    font-size: 13px;
+}
+
+.oradores-container .btn {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 4px;
+    margin-bottom: 7px;
+    cursor: default !important;
+}
+
+.bsas-container .boton-transparente {
+    font-size: 13px;
+}
+
+.formulario-text {
+    font-size: 15px;
+}
+
+.formulario-text .subrayado {
+    text-decoration: underline dotted;
+}
+
+#formulario .row {
+    display: flex;
+    justify-content: center;
+}
+
+#formulario .nom-ape {
+    font-size: 14px;
+    padding: 13px 9px;
+    height: 25px;
+    border-radius: 1;
+}
+
+#formulario .form-label {
+    margin-top: 5px;
+    font-size: 11px;
+    font-weight: 500;
+    color: gray;
+}
+
+#formulario .charla {
+    position: relative;
+}
+
+#formulario .charla::placeholder {
+    color: gray;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#formulario button {
+    color: white;
+    font-size: 18px;
+    background-color: #96C93E;
+    width: 100%;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B3E51;
+}
+
+.final a {
+    text-align: center;
+    width: 110px;
+    margin: 5px 15px ;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
