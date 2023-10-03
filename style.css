@@ -7,6 +7,13 @@
     z-index: 1;
 }
 
+@media (min-width: 450px) {
+    .navbar .navbar-brand {
+        margin-left: 48px;
+    }
+}
+
+
 .navbar-nav {
     margin-right: 7% !important;
 }
@@ -71,11 +78,9 @@
     .carousel-item .card-body {
         font-size: 10px;
     }
-
     .carousel-item .card-title {
         font-size: 20px;
     }
-
     .carousel-item .btn {
         font-size: 10px;
         padding: 4px;
