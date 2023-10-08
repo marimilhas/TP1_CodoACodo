@@ -189,6 +189,10 @@
     width: 100%;
 }
 
+#formulario button:hover {
+    background-color: #8ab939;
+}
+
 .final {
     display: flex;
     justify-content: center;
@@ -204,4 +208,8 @@
     color: white;
     font-size: 14px;
     font-weight: 500;
+}
+
+.final a:hover {
+    color: #2589be !important;
 }
