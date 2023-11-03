@@ -213,3 +213,36 @@
 .final a:hover {
     color: #2589be !important;
 }
+
+#tickets .row {
+    display: flex;
+    justify-content: center;
+}
+
+#tickets .card {
+    border-radius: 0;
+    margin-right: 5px;
+}
+
+#tickets .card-subtitle {
+    font-size: 13px;
+}
+
+#tickets .card-body{
+    padding: 0px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+#tickets .titulo-container {
+    font-size: 13px ;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+#tickets button {
+    color: white;
+    font-size: 18px;
+    background-color: #96C93E;
+    width: 100%;
+}
