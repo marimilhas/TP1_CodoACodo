@@ -38,6 +38,9 @@
                             <a class="nav-link link-success" href="#tickets">Comprar tickets</a>
                         </li>
                     </ul>
+                    <div>
+                        <a class="nav-link" href="#"><img src="/images/clipart3366677.png" alt="Iniciar sesión" style="width: 25px; margin-right: 20px;"></a>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -151,7 +154,8 @@
                             <input type="text" class="form-control nom-ape" id="textInput" placeholder="Apellido">
                         </div>
                         <div class="col-12">
-                            <input type="text" class="form-control charla" id="textInput" placeholder="Sobre qué quieres hablar?" style="height: 100px;">
+                            <textarea class="form-control charla" id="textInput" placeholder="Sobre qué quieres hablar?" style="height: 100px;"></textarea>
+                            <!-- <input type="text" class="form-control charla" id="textInput" placeholder="Sobre qué quieres hablar?" style="height: 100px;"> -->
                             <label class="form-label" for="textInput">Recuerda incluir un título para tu charla</label>
                         </div>
                         <div class="col-12">
@@ -164,34 +168,36 @@
 
         <!-- COMPRAR TICKETS  -->
         <div class="container-fluid" id="tickets">
-            <div class="row mt-5">
-                <div class="card border border-primary" style="width: 200px;">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Estudiante</h5>
-                        <p class="card-text mt-3">Tienen un descuento</p>
-                        <h6 class="fw-bold">80%</h6>
-                        <h6 class="card-subtitle text-body-secondary mt-4">* presentar documentación</h6>
-                    </div>
-                </div>
-                <div class="card border border border-info" style="width: 200px;">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Trainee</h5>
-                        <p class="card-text mt-3">Tienen un descuento</p>
-                        <h6 class="fw-bold">50%</h6>
-                        <h6 class="card-subtitle text-body-secondary mt-4">* presentar documentación</h6>
-                    </div>
-                </div>
-                <div class="card border border-warning" style="width: 200px;">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Junior</h5>
-                        <p class="card-text mt-3">Tienen un descuento</p>
-                        <h6 class="fw-bold">15%</h6>
-                        <h6 class="card-subtitle text-body-secondary mt-4">* presentar documentación</h6>
-                    </div>
-                </div>
+            <div class="row mt-4">
                 <div class="col-12 text-center titulo-container">VENTA</div>
                 <div class="col-12 text-center fs-2 fw-semibold">VALOR DE TICKET $200</div>
-                <form class="col-10 col-md-6 mt-2">
+                <div class="row text-center card-container mb-3 mt-2">
+                    <div class="card border border-primary mb-2" style="width: 200px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Estudiante</h5>
+                            <p class="card-text mt-3">Tienen un descuento</p>
+                            <h6 class="fw-bold">80%</h6>
+                            <h6 class="card-subtitle text-body-secondary mt-4">* presentar documentación</h6>
+                        </div>
+                    </div>
+                    <div class="card border border border-info mx-4 mb-2" style="width: 200px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Trainee</h5>
+                            <p class="card-text mt-3">Tienen un descuento</p>
+                            <h6 class="fw-bold">50%</h6>
+                            <h6 class="card-subtitle text-body-secondary mt-4">* presentar documentación</h6>
+                        </div>
+                    </div>
+                    <div class="card border border-warning mb-2" style="width: 200px;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Junior</h5>
+                            <p class="card-text mt-3">Tienen un descuento</p>
+                            <h6 class="fw-bold">15%</h6>
+                            <h6 class="card-subtitle text-body-secondary mt-4">* presentar documentación</h6>
+                        </div>
+                    </div>
+                </div>
+                <form class="col-10 col-md-6">
                     <div class="row">
                         <div class="col-12 col-md-6 mb-3">
                             <input type="text" class="form-control" id="textInput" placeholder="Nombre">
@@ -202,12 +208,10 @@
                         <div class="col-12 mb-3">
                             <input type="text" class="form-control" id="textInput" placeholder="Correo">
                         </div>
-                        <div class="col-12 col-md-6 mb-3">
-                            <div class="mb-1">Cantidad</div>
+                        <div class="col-12 col-md-6 mb-4">
                             <input type="text" class="form-control" id="cantidad" placeholder="Cantidad">
                         </div>
-                        <div class="col-12 col-md-6 mb-3">
-                            <div class="mb-1">Categoría</div>
+                        <div class="col-12 col-md-6 mb-4">
                             <select id="categoria" class="form-select">
                                 <option value="">Sin categoría</option>
                                 <option value="estudiante">Estudiante</option>
@@ -215,7 +219,7 @@
                                 <option value="junior">Junior</option>
                             </select>
                         </div>
-                        <div class="mb-3 mt-4 total">
+                        <div class="total">
                             <p class="alert alert-primary" id="totalAPagar">Total a Pagar: $</p>
                         </div>
                         <div class="col-12 col-md-6">

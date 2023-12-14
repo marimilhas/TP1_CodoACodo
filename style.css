@@ -15,7 +15,7 @@
 
 
 .navbar-nav {
-    margin-right: 7% !important;
+    margin-right: 3% !important;
 }
 
 .navbar-nav .nav-item {
@@ -172,6 +172,9 @@
 
 #formulario .charla {
     position: relative;
+    font-size: 14px;
+    resize: vertical !important;
+    overflow: auto !important;
 }
 
 #formulario .charla::placeholder {
@@ -219,9 +222,13 @@
     justify-content: center;
 }
 
+#tickets .card-container {
+    display: flex;
+    justify-content: center;
+}
+
 #tickets .card {
     border-radius: 0;
-    margin-right: 5px;
 }
 
 #tickets .card-subtitle {
